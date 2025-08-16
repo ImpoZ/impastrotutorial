@@ -1,4 +1,6 @@
 ---
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 
 const pageTitle = "About Angelino's";
@@ -41,9 +43,7 @@ const textCase = "capitalize"
     </style>
 	</head>
 	<body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
+    <Navigation />
     <h1>{pageTitle}</h1>
     <h2>... they smell like cabage!</h2>
 
@@ -68,7 +68,8 @@ const textCase = "capitalize"
     </ul>
     <p>My skills are:</p>
     <ul>
-    {skills.map((skill) => <li class="skill">{skill}</li>)}
+    {skills.map((sSkill) => <li class="skill">{sSkill}</li>)}
     </ul>    
+    <Footer />
 	</body>
 </html>
