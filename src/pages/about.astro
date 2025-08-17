@@ -16,13 +16,13 @@ const happy = true;
 const finished = false;
 const goal = 8;
 
-const skillColor = "red"
+const skillColor = "navy"
 const fontWeight = "bolder"
 const textCase = "capitalize"
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <style define:vars={{skillColor, fontWeight, textCase}}>
+    <style is:global define:vars={{ skillColor, fontWeight, textCase }}>
       h1 {
         color: rgb(46, 41, 1);
         font-size: 4rem;
