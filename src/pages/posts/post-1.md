@@ -1,7 +1,7 @@
 ---
-title: 'First Angelino Blog Post'
+title: 'First Duckalino Blog Post'
 pubDate: 2025-08-04
-description: 'This is the first post on how to defeat the Angelino'
+description: 'This is the first post on how to defeat the Duckalino'
 author: 'the Imp'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
@@ -12,7 +12,7 @@ tags: ["astro", "blogging", "learning in public"]
 
 Published on: 2025-08-04
 
-Welcome to my _new blog_ on the Terrifying Angelino!
+Welcome to my _new blog_ on the Terrifying Duckalino!
 
 ## What I've accomplished
 
