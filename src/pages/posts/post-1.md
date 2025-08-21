@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'First Duckalino Blog Post'
 pubDate: 2025-08-04
 description: 'This is the first post on how to defeat the Duckalino'
@@ -10,7 +11,6 @@ tags: ["astro", "blogging", "learning in public"]
 ---
 # My First Blog Post on this
 
-Published on: 2025-08-04
 
 Welcome to my _new blog_ on the Terrifying Duckalino!
 
